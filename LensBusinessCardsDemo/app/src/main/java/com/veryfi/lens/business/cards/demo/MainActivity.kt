@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.veryfi.lens.VeryfiLens
 import com.veryfi.lens.VeryfiLensDelegate
-import com.veryfi.lens.business.cards.databinding.ActivityMainBinding
+import com.veryfi.lens.business.cards.demo.databinding.ActivityMainBinding
 import org.json.JSONObject
 
 class MainActivity : AppCompatActivity() {
