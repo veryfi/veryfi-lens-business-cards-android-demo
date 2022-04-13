@@ -20,7 +20,7 @@ You can read further about Lens in Veryfi's dedicated page: https://www.veryfi.c
 4. [Get in contact with our team](#contact)
 
 ## Veryfi Lens Business Cards Android Example <a name="example"></a>
-![business_card](https://user-images.githubusercontent.com/46335146/163081497-f949ed77-520c-4eef-9181-82fbd02233a1.gif)
+![business_card](https://user-images.githubusercontent.com/46335146/163082329-fa459975-852a-4e53-9f28-785543a97be5.gif)
 
 ## Other Lens Android Examples <a name="examples"></a>
 This is an example of how to use Veryfi Lens Business Cards in your app, you can find the developer documentation [here](AndroidLensBusinessCards.pdf).
