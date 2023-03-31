@@ -38,7 +38,7 @@ package manager for Java.
 Add in your project build.gradle file the Veryfi Lens Business Cards android SDK dependency:
 ```ruby
 dependencies {
-    implementation 'com.veryfi.lens:veryfi-lens-business-cards-sdk:1.7.0.6'
+    implementation 'com.veryfi.lens:veryfi-lens-business-cards-sdk:1.7.0.8'
 }
 ```
 
