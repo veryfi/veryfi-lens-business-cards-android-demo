@@ -28,7 +28,7 @@ You can read further about Lens in Veryfi's dedicated page: https://www.veryfi.c
 ## Veryfi Lens Business Cards Android Example <a name="example"></a>
 This is an example of how to use Veryfi Lens Business Cards in your app, you can find the developer documentation [here](https://app.veryfi.com/lens/docs/android/).
 
-![LensBusinessCardDemo](https://user-images.githubusercontent.com/30125790/189681761-4d4c503d-28cc-4bf8-a7bc-2b0e45ea023f.gif)
+![LensBusinessCardDemo](business-cards-demo.gif)
 
 ## How to add Veryfi Lens Business Cards to your project <a name="maven"></a>
 
@@ -38,7 +38,7 @@ package manager for Java.
 Add in your project build.gradle file the Veryfi Lens Business Cards android SDK dependency:
 ```ruby
 dependencies {
-    implementation 'com.veryfi.lens:veryfi-lens-business-cards-sdk:1.7.0.8'
+    implementation 'com.veryfi.lens:veryfi-lens-business-cards-sdk:1.7.0.9'
 }
 ```
 
