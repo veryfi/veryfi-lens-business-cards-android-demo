@@ -20,10 +20,6 @@ android {
 
     }
 
-    androidResources {
-        noCompress += "veryfi"
-    }
-
     buildFeatures {
         viewBinding true
         buildConfig true
@@ -58,5 +54,5 @@ dependencies {
     implementation 'com.github.pvarry:android-json-viewer:v1.1'
 
     // Veryfi lens
-    implementation 'com.veryfi.lens:veryfi-lens-business-cards-sdk:2.1.0.42'
+    implementation 'com.veryfi.lens:veryfi-lens-business-cards-sdk:2.1.0.43'
 }
