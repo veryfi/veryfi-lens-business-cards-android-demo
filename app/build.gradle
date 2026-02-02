@@ -54,5 +54,5 @@ dependencies {
     implementation 'com.github.pvarry:android-json-viewer:v1.1'
 
     // Veryfi lens
-    implementation 'com.veryfi.lens:veryfi-lens-business-cards-sdk:2.1.0.56'
+    implementation 'com.veryfi.lens:veryfi-lens-business-cards-sdk:2.1.0.57'
 }
