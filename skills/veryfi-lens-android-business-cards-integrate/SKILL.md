@@ -1,6 +1,6 @@
 ---
 name: veryfi-lens-android-business-cards-integrate
-description: "Integrates the Veryfi Lens Android Business Cards SDK (com.veryfi.lens:veryfi-lens-business-cards-sdk:2.7.0.6): Maven setup, VeryfiLens.configure, VeryfiLensSettings for BUSINESS_CARD and Any-Documents shortcuts, delegate callbacks, showCamera, showGallery, showDocumentBrowser, and uploadImages. Use when adding business-card capture on Android, or when this artifact also scans insurance cards, passports, driver licenses, nutrition facts, or shipping labels."
+description: "Integrates the Veryfi Lens Android Business Cards SDK (com.veryfi.lens:veryfi-lens-business-cards-sdk:2.7.0.6): Maven setup, VeryfiLens.configure, VeryfiLensSettings for BUSINESS_CARD and Any-Documents shortcuts, delegate callbacks, showCamera, showGallery, showDocumentBrowser, and uploadImages. Use when adding business-card capture on Android, or when this artifact also scans insurance cards, passports, driver licenses, nutrition facts, or shipping labels. Covers Lens analytics events and notification subscription (events.md)."
 ---
 
 # Veryfi Lens Android — Business Cards
@@ -85,7 +85,11 @@ Defaults: `BUSINESS_CARD`, Cloud API, camera plus gallery, stitch off.
 - [implementation.md](implementation.md) — configure, delegate, and launch or camera lifecycle
 - [settings.md](settings.md) — `VeryfiLensSettings` for this product, with Android defaults
 - [callbacks.md](callbacks.md) — delegate payloads
+- [events.md](events.md) — analytics events, metrics, and notification subscription
 - [troubleshooting.md](troubleshooting.md) — symptom, cause, fix
 - [clarifications.md](clarifications.md) — Unconfirmed items, Any-Documents, fraud, field detection
 - [checklist.md](checklist.md) — validation checklist before handing code to the host
 
+## Analytics and metrics
+
+Lens already records interaction events. When the host wants those metrics, subscribe as in [events.md](events.md). Use the event names listed there. Do not invent names. On Android, register `com.veryfi.lens.VeryfiLensSecureAnalyticsEvent`, not the deprecated `com.veryfi.lens.VeryfiLensAnalyticsEvent`. A plugin host calls the plugin observe API instead of registering that broadcast itself.
